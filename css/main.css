@@ -1,6 +1,7 @@
 body{
 	border: 0;
 	background-color: #96ceff;
+	margin: 0;
 }
 
 .sol{
@@ -33,4 +34,90 @@ body{
 	top: 400px;
 	left: 775px;
 }
+#windons{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	background: #c2f1ff;
+	top: 450px;
+	left: 990px;
+}
+#door{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: #70680a;
+	top: 450px;
+	left: 820px;
+}
+#chimenea{
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	background: green;
+	top: 320px;
+	left: 1030px;
+}
+.pasto{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: #22a831;
+	bottom: 0;
+}
+#ball1, #ball2, #ball3{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 245px;
+	left: 1030px;
+	margin: 4px;
+}
+.corazon{
 
+	background-color: #ED0C1E;
+    position: absolute;
+    left: 820px;
+    top: 470px;
+
+}
+
+#corazon:before,
+#corazon:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#corazon:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
